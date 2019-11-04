@@ -1,0 +1,88 @@
+PL/SQL Developer Report
+
+[SQL]
+select *
+from movie,screen 
+where movie_code=screen_movie and screen_date 
+between to_date (&<name="begin" type=string default="01/05/2014"> ,'DD/MM/YYYY') 
+and to_date (&<name="end" type=string default="30/05/2014"> ,'DD/MM/YYYY') order by screen_date;
+
+[Options]
+Connect=False
+Username=
+Password=2545
+Database=
+ConnectAs=
+LockMode=0
+LockedPassword=2155
+BkgColor=-16777211
+BkgImage=
+FormLayout=False
+OnlyNBSP=False
+LeftMargin=0
+TopMargin=0
+PageBreak=0
+AddSQL=False
+HandleTags=True
+
+[Styles]
+
+{Title}
+Enabled=True
+Name=Report Title
+Description=
+Style=
+HeaderStyle=
+Align=0
+Break=0
+Function=0
+Format=
+
+{Param}
+Enabled=True
+Name=Variables
+Description=
+Style=
+HeaderStyle=
+Align=0
+Break=0
+Function=0
+Format=
+
+{Table}
+Enabled=True
+Name=Tabular Tables
+Description=
+Style=
+HeaderStyle=
+Align=0
+Break=0
+Function=0
+Format=
+
+{Form}
+Enabled=True
+Name=Form Tables
+Description=
+Style=
+HeaderStyle=
+Align=0
+Break=0
+Function=0
+Format=
+
+{Field}
+Enabled=True
+Name=Default Field
+Description=
+Style=
+HeaderStyle=
+Align=0
+Break=0
+Function=0
+Format=
+
+
+
+[CSS]
+

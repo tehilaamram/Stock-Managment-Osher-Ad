@@ -1,0 +1,49 @@
+PL/SQL Developer Project
+
+[Options]
+AutoConnect=0
+Username=tamram
+Password=2131394139194057382739814071403340434021
+Database=OsherAdProject
+ConnectAs=Normal
+Edition=
+Workspace=
+HaltAfterError=0
+BrowseHistory=0
+FileBrowser=0
+ShowItems=-1
+
+[History]
+Programs=
+SQL Scripts=
+Report Files=
+Test Scripts=
+Command Scripts=
+Diagram Files=
+
+[BrowserFolders]
+
+
+[Groups]
+
+[Files]
+1,4,,,drop_table_basic.sql
+1,4,,,createTables.sql
+1,4,,,insertTablesBasic.sql
+1,4,,,branchInsert.sql
+1,4,,,companyInsert.sql
+1,4,,,returnsInsert.sql
+1,4,,,queries1.sql
+1,4,,,productInsert.sql
+1,4,,,orderFromBasementImsert.sql
+1,4,,,orderedProductInsert.sql
+1,4,,,cotegoryInsert.sql
+1,4,,,representInsert.sql
+1,4,,,integration.sql
+1,4,,,insertIntegration.sql
+1,4,,,dropIntegration.sql
+
+[Notes]
+{\rtf1\fbidis\ansi\deff0{\fonttbl{\f0\fnil\fcharset0 Tahoma;}}
+\viewkind4\uc1\pard\ltrpar\lang1037\f0\fs16\par
+}
